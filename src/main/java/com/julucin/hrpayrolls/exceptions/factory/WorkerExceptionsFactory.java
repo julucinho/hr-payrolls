@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @UtilityClass
 @Slf4j
-public class PaymentExceptionsFactory {
+public class WorkerExceptionsFactory {
 
     public static WorkerDoesNotExistException makeWorkerDoesNotExistException(Long id){
         var message = "There isn't an instance of worker with ID ".concat(id.toString());
