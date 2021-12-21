@@ -1,4 +1,4 @@
-package com.julucin.hrpayrolls.exceptions.factory;
+package com.julucin.hrpayrolls.exceptions.factories;
 
 import com.julucin.hrpayrolls.exceptions.WorkerDoesNotExistException;
 import lombok.experimental.UtilityClass;

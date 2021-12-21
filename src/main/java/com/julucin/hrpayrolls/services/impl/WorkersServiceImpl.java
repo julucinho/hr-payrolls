@@ -2,7 +2,7 @@ package com.julucin.hrpayrolls.services.impl;
 
 import com.julucin.hrpayrolls.clients.feign.WorkersFeignClient;
 import com.julucin.hrpayrolls.dtos.WorkerDto;
-import com.julucin.hrpayrolls.exceptions.factory.WorkerExceptionsFactory;
+import com.julucin.hrpayrolls.exceptions.factories.WorkerExceptionsFactory;
 import com.julucin.hrpayrolls.services.WorkersService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
