@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(name="hr-workers", url = "localhost:8001", path = "/workers")
 public interface WorkersFeignClient {
 
-    @GetMapping
+    @GetMapping("/{id}")
     ResponseEntity<WorkerDto> retrieveById(@PathVariable Long id);
 
 }

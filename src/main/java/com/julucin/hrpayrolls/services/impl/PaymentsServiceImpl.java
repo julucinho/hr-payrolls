@@ -22,7 +22,8 @@ public class PaymentsServiceImpl implements PaymentsService {
         var worker = this.findWorkerFor(paymentCalculation);
         var income = worker.getDailyIncome() * paymentCalculation.getDaysWorked();
         return PaymentDto.builder()
-                .income(income)
+                .daysWorked(paymentCalculation.getDaysWorked())
+                .totalIncome(income)
                 .worker(worker)
                 .build();
     }

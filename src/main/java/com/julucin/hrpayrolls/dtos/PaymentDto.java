@@ -11,6 +11,6 @@ public class PaymentDto {
 
     private WorkerDto worker;
     private Integer daysWorked;
-    private Double income;
+    private Double totalIncome;
 
 }
