@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @Component
-@FeignClient(name="hr-workers", url = "localhost:8001", path = "/workers")
+@FeignClient(name="hr-workers", path = "/workers")
 public interface WorkersFeignClient {
 
     @GetMapping("/{id}")
