@@ -1,4 +1,4 @@
-package com.julucin.hrpayrolls.services.impl;
+package com.julucin.hrpayrolls.services.impls;
 
 import com.julucin.hrpayrolls.dtos.PaymentCalculationDto;
 import com.julucin.hrpayrolls.dtos.PaymentDto;
